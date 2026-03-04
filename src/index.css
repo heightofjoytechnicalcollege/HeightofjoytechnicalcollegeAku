@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+
+body {
+  @apply bg-gray-100 text-gray-900;
+}
+
+h1 {
+  @apply text-3xl font-bold;
+}
+
+p {
+  @apply text-base leading-6;
+}
